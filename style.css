@@ -9,12 +9,14 @@
 
 }
 
+
 body{
-    background-color: var(--cor0) ;
+    background-color: var(--cor0);
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 header{
-    background-color: var(--cor01);
     display: flex;
     align-items: center;
 }
@@ -25,15 +27,106 @@ h1{
     display: flex;
     align-items: center;
     color: #502000;
+    font-size: 4em;
 
-}
-
-header > p{
-    color: #9C3E00;
 }
 
 .texto-cabeçalho{
+    
     display: block;
-
+    align-items: center;
     color: #9C3E00;
+}
+
+.subtitulo-cabeçalho{
+    color: #9C3E00;
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+}
+
+h2{
+    font-family: 'Arima', cursive, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: #10ABB4;
+}
+
+
+
+p{
+    text-indent: 20px;
+    font-size: 2em;
+}
+
+section{
+     /* colocar de imagem um png legal do papai */
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 5px;
+    background-image: url('imagens/logo\ final\ certo.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+
+section > h2{
+    text-align: left;
+    text-indent: 20px;
+}
+
+/* #contatiner{ 
+     colocar de imagem um png legal do papai
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 5px;
+    background-image: url('imagens/logo\ final\ certo.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    position: relative;
+} 
+*/
+
+#conteudo{
+    background-image: white;
+    border: 1px solid black;
+    width: 50%;
+}
+
+ul{
+    list-style: '\1F43E';
+}
+
+li{
+    text-indent: 10px;
+    font-size: 2em;
+}
+
+footer{
+    font-size: 0.75em;
+    background-color: #502000;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-left: -20px;
+    padding-right: 40px;
+    margin-bottom: -24px;
+   
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+span{
+    color: #9C3E00;
+    background-color: #502000;
+    border-radius: 3px;
 }
