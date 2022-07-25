@@ -125,6 +125,9 @@ a:hover{
     text-decoration: underline;
 }
 
+a.link-git::after{
+    content: '\00A0\1F517';
+}
 span{
     color: #9C3E00;
     background-color: #502000;
