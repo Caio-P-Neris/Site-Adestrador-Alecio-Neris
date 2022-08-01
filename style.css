@@ -19,6 +19,11 @@ body{
 header{
     display: flex;
     align-items: center;
+    
+}
+
+#imag-cel{
+    width: 375px;
 }
 
 h1{
@@ -151,4 +156,8 @@ span{
     color: #9C3E00;
     background-color: #502000;
     border-radius: 3px;
+}
+
+.logos{
+    margin-left: 42%;
 }
