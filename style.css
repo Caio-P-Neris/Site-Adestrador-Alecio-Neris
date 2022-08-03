@@ -22,8 +22,15 @@ header{
     
 }
 
+@media screen and (max-width: 375px) {
+    .imag-teste {
+     width: 375px;
+     height: 375px;
+    }
+  }
+
 #imag-cel{
-    width: 375px;
+    max-width: 375px;
 }
 
 h1{
