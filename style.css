@@ -12,8 +12,7 @@
 
 body{
     background-color: var(--cor0);
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 0 3px;
 }
 
 header{
@@ -26,6 +25,12 @@ header{
 
 #logo-texto{
     margin-top: 20px;
+    display: flex;
+}
+
+nav#navcab{
+    /* ARRUMA ESSA MERDA*/ 
+    margin: auto;
 }
 
 #lista-cab{
@@ -58,10 +63,13 @@ a.a-cab{
     
 }
 
-@media screen and (max-width: 375px) {
-    .imag-teste {
-     width: 375px;
-     height: 375px;
+@media screen {
+     picture#logo-css{
+     background: url('imagens/logo-pc.png');
+     background-size: contain;
+     background-repeat: no-repeat;
+     width: 510px;
+     height: 510px;
     }
   }
 
@@ -72,7 +80,7 @@ a.a-cab{
 h1{
     font-family: 'Arima', cursive, sans-serif;
     margin: 0%;
-    display: flex;
+    margin-left: 17%;
     align-items: center;
     color: #502000;
     font-size: 3em;
@@ -86,9 +94,11 @@ h1{
     color: #9C3E00;
 }
 
-.subtitulo-cabeçalho{
+#subtitulo-cabeçalho{
     color: #9C3E00;
 }
+
+#menuh{display: none;}
 
 main{
     background-color: white;
@@ -100,8 +110,9 @@ h2{
     font-size: 2.5em;
     text-align: center;
     color: #10ABB4;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
-
 
 
 p{
@@ -135,9 +146,10 @@ section > h2{
     background-repeat: no-repeat;
     background-position: center right;
     position: relative;
-    width: 95%;
+    width: 98%;
     background-size: cover;
     background-attachment: fixed;
+    margin: auto;
 } 
 
 
@@ -176,7 +188,7 @@ footer{
 
 footer > p{
     margin: 0px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .p-baixo{
@@ -203,4 +215,22 @@ span{
 
 .logos{
     margin-left: 42%;
+}
+
+@media screen{
+    #logo-zap{
+        width: 120px;
+        height: 120px;
+        background: url('imagens/logo_zap_cel.png');
+        background-size: contain;
+        margin: auto;
+    }
+    #logo-insta{
+        width: 120px;
+        height: 120px;
+        background: url('imagens/insta_logo_cel.png');
+        background-size: contain;
+        margin: auto;
+        background-repeat: no-repeat;
+    }
 }

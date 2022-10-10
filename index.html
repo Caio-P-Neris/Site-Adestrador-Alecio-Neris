@@ -8,11 +8,19 @@
     <title>Alecio Neris Adestrador de cães</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="imagens/favcon.png" type="image/x-png">
+    <link rel="stylesheet" href="cel.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
-<body>
+<body onresize="">
     <header>
-        <nav id="nav-cab">
+        
+        <div id="menuh" onclick="clickMenu()">
+            <i class="material-icons" >menu</i>
+
+        </div>
+        
+        <nav id="navcab">
             <ul id="lista-cab">
             <li class="li-cab"><a class="a-cab" href="">Home</a></li>
             <li class="li-cab"><a class="a-cab" href="">Quem sou eu</a></li>
@@ -23,15 +31,12 @@
         </nav>
     </header>
     <div id="logo-texto">
-        <picture>
-            
-            <source id="imag-cel" src="imagens/logo-pc.png" media="(max-width:375px)" alt="logo pra celular">    
-            <img class="imag-teste" src="imagens/logo-cel.png" alt="logo de Alecio Neris">
+        <picture id="logo-css">
         </picture>
 
             <div class="texto-cabeçalho">
-            <h1 class="titulo-cabeçalho">ALECIO NERIS, adestrador de cães</h1>
-            <h2 class="subtitulo-cabeçalho">Se você está em busca de um excelente adestrador de cães, está no lugar certo!</h2>
+            <h1 class="titulo-cabeçalho">ALECIO NERIS ADESTRADOR</h1> <br>
+            <h2 id="subtitulo-cabeçalho" class="subtitulo">Se você está em busca de um excelente adestrador de cães, está no lugar certo!</h2>
             </div>
     </div>
     <main>
@@ -47,13 +52,13 @@
         </ul>
         
         <div>
-            <h2>Sim?</h2>
+            <h2 class="subtitulo">Sim?</h2>
             <p>Se suas respostas para algumas dessas perguntas foram sim, então você está no <span>lugar certo!</span></p>
         </div>
         
         <section id="contatiner">
             <div id="conteudo">
-            <h2>Olá! Primeiramente me chamo Alecio Neris,</h2>
+            <h2 class="subtitulo">Olá! Primeiramente me chamo Alecio Neris,</h2>
             <p>sou adestrador ...
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio facere corporis soluta tenetur aperiam recusandae dolorum rem nulla at accusantium, modi ex! Autem rem ipsam accusamus inventore maiores et deleniti.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem molestias tempora consequatur, laboriosam voluptatem qui! Dolores assumenda, ut voluptatibus dolorem pariatur dolor! Quo dignissimos, modi hic numquam fugiat mollitia in?
@@ -64,25 +69,25 @@
         </section>
         
         <div>
-        <h2>Confira alguns dos cãezinhos que já adestrei!</h2>
+        <h2 class="subtitulo">Confira alguns dos cãezinhos que já adestrei!</h2>
         <picture>
             <img src="" alt="fotos e vídeos cachorros adestrados">
         </picture>
         </div>
         
         <div>
-            <h2>Confira também alguns dos relatos de meus clientes!</h2>
+            <h2 class="subtitulo">Confira também alguns dos relatos de meus clientes!</h2>
             <iframe src="https://www.google.com/search?client=opera-gx&q=adestrador%20de%20cães%20santo%20andre&sourceid=opera&ie=UTF-8&oe=UTF-8&hs=ZS0&tbs=lf:1,lf_ui:14&tbm=lcl&sxsrf=ALiCzsZD-fSc_rQ6muvX-ltuQUwQ5xl6Fw:1657637186674&rflfq=1&num=10&rldimm=16811989444596183887&lqi=Ch9hZGVzdHJhZG9yIGRlIGPDo2VzIHNhbnRvIGFuZHJlWisiH2FkZXN0cmFkb3IgZGUgY8OjZXMgc2FudG8gYW5kcmUqCAgDEAAQARACkgELZG9nX3RyYWluZXKaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUTJja2xRU1c1UlJSQUKqARsQASoXIhNhZGVzdHJhZG9yIGRlIGPDo2VzKAw&ved=2ahUKEwixg7bdy_P4AhVGH7kGHU6IBrQQvS56BAhcEAE&sa=X&rlst=f#lrd=0x94ce69f43761ef0b:0xe9502f537cc5b34f,1,,,&rlfi=hd:;si:16811989444596183887,l,Ch9hZGVzdHJhZG9yIGRlIGPDo2VzIHNhbnRvIGFuZHJlWisiH2FkZXN0cmFkb3IgZGUgY8OjZXMgc2FudG8gYW5kcmUqCAgDEAAQARACkgELZG9nX3RyYWluZXKaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUTJja2xRU1c1UlJSQUKqARsQASoXIhNhZGVzdHJhZG9yIGRlIGPDo2VzKAw;mv:[[-23.6162945,-46.499333299999996],[-23.725667299999998,-46.557587]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!2m4!1e17!4m2!17m1!1e2!3sIAE,lf:1,lf_ui:14" frameborder="0"></iframe>
         </div>
         <div>
-            <h2>Você gostaria de ter todos esses benefícios na relação com seu cachorro?</h2>
+            <h2 class="subtitulo">Você gostaria de ter todos esses benefícios na relação com seu cachorro?</h2>
             <p>Então entre em <span> contato comigo por WhatsApp agora mesmo</span> para batermos um papo sobre sua situação com seu cachorro clicando abaixo!</p>
-            <picture class="logos">
-                <a href=""><img src="imagens/logo_zap_cel.png" alt="imagem WhatsApp png com link"></a>
-            </picture>
+            <div>
+                <a href=""><div id="logo-zap"></div></a>
+            </div>
             <nav>
                 <p> Não se esqueça de me seguir em minhas redes sociais para acompanhar meu trabalho:</p>
-                <a href="https://www.instagram.com/alecionerisdogwalker/" target="_blank" rel="external"> <img src="imagens/insta_logo_cel.png" alt="logomarca instagram"> Instagram</a>
+                <a href="https://www.instagram.com/alecionerisdogwalker/" target="_blank" rel="external"> <div id="logo-insta"></div></a>
             </nav>
         </div>
     </main>
@@ -90,5 +95,20 @@
         <p>Todos os direitos reservados</p>
         <p class="p-baixo">Desenvolvido por <a href="https://github.com/Caio-P-Neris" target="_blank" rel="external" class="link-git" >Caio Pereira Neris</a></p>
     </footer>
+
+    <script>
+        function clickMenu(){
+            if (navcab.style.display == 'block'){
+                navcab.style.display = 'none'
+            } else{
+                navcab.style.display = 'block'
+            }
+            
+            
+        }
+
+
+    </script>
+
 </body>
 </html>
