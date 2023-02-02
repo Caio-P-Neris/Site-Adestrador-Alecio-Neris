@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="cel.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-
+<!--
 <body onresize="">
     <header>
         
@@ -29,7 +29,7 @@
             <li class="li-cab"><a class="a-cab" href="">Contato</a></li>
             </ul>
         </nav>
-    </header>
+    </header>  -->
     <div id="logo-texto">
         <picture id="logo-css">
         </picture>
@@ -59,9 +59,8 @@
         <section id="contatiner">
             <div id="conteudo">
             <h2 class="subtitulo">Olá! Primeiramente me chamo Alecio Neris,</h2>
-            <p>sou adestrador ...
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio facere corporis soluta tenetur aperiam recusandae dolorum rem nulla at accusantium, modi ex! Autem rem ipsam accusamus inventore maiores et deleniti.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem molestias tempora consequatur, laboriosam voluptatem qui! Dolores assumenda, ut voluptatibus dolorem pariatur dolor! Quo dignissimos, modi hic numquam fugiat mollitia in?
+            <p id="apresentacao">sou adestrador com mais de 9 anos de experiência e o mais bem avalidade de Santo André. Tudo começou com minha cachorrinha Lili que, por ser muito arteira, a veterinária aconselhou adestrar. Pouco tempo depois, resgatei a Manuh da rua, e com duas cachorrinhas ficou mais evidente a necessidade do adestramento. Então resolvi eu mesmo assumir o desafio e comecei a estudar por diversos cursos e livros de nomes muito renomados e de reconhecimento internacional. Até que, após ter aprendido o melhor método e as mais sofisticadas técnicas,  em 2020 comecei a realizar aquilo que tinha surgido como necessidade e, posteriormente como hobby, em minha principal ocupação e paixão. Desde então venho ajudando a transformar a relação entre inúmeros tutores e seus cãezinhos, melhorando sua convivência e bem-estar no dia a dia.       
+                
             </p>
             <!-- Botar a foto do papai de fundo a direita -->
             <p>E o mais importante de tudo, sou capaz de criar um vínculo muito melhor de <span>amizade e obediência</span> entre você e seu cachorro! </p>
@@ -70,15 +69,108 @@
         
         <div>
         <h2 class="subtitulo">Confira alguns dos cãezinhos que já adestrei!</h2>
-        <picture>
-            <img src="" alt="fotos e vídeos cachorros adestrados">
-        </picture>
+        <div id="carrossel2">
+            <div class="slides">
+                <!--button-->                    
+                <input type="radio" name="radio-btn2" id="radio21" value="1" checked="true" onclick="resetNextImage(2)">
+                <input type="radio" name="radio-btn2" id="radio22" value="2" onclick="resetNextImage(2)">
+                <input type="radio" name="radio-btn2" id="radio23" value="3" onclick="resetNextImage(2)">
+                <input type="radio" name="radio-btn2" id="radio24" value="4" onclick="resetNextImage(2)">
+                <input type="radio" name="radio-btn2" id="radio25" value="5" onclick="resetNextImage(2)">
+            
+                <!--slide imagens-->
+                <div class="slide first">
+                    <img src="imag-ia/pc1.png" alt="review 1" class="pc">
+                    <img src="imag-ia/cel111 (1).png" class="cel" alt="">
+                </div>
+                <div class="slide">
+                    <img src="imag-ia/pc22.png" alt="review 2" class="pc">
+                    <img src="imag-ia/cel12.png" class="cel" alt="">
+                </div>
+                <div class="slide">
+                    <img src="imag-ia/pc3.png" alt="review 3" class="pc">
+                    <img src="imag-ia/cel13.png" class="cel" alt="">
+                </div>
+                <div class="slide">
+                    <img src="imag-ia/pc4.png" alt="review 4" class="pc">
+                    <img src="imag-ia/cel14.png" class="cel" alt="">
+                </div>
+                <div class="slide">
+                    <img src="imag-ia/pc5.png" alt="review 5" class="pc">
+                    <img src="imag-ia/cel15.png" class="cel" alt="">
+                </div>
+                <!--Navigation auto-->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                    <div class="auto-btn5"></div>
+                </div>
+            </div>
+            <div class="manual-navigation">
+                <label for="radio21" class="manual-btn"></label>
+                <label for="radio22" class="manual-btn"></label>
+                <label for="radio23" class="manual-btn"></label>
+                <label for="radio24" class="manual-btn"></label>
+                <label for="radio25" class="manual-btn"></label>
+            </div>
+        </div>
+    </div>
         </div>
         
-        <div>
-            <h2 class="subtitulo">Confira também alguns dos relatos de meus clientes!</h2>
-            <iframe src="https://www.google.com/search?client=opera-gx&q=adestrador%20de%20cães%20santo%20andre&sourceid=opera&ie=UTF-8&oe=UTF-8&hs=ZS0&tbs=lf:1,lf_ui:14&tbm=lcl&sxsrf=ALiCzsZD-fSc_rQ6muvX-ltuQUwQ5xl6Fw:1657637186674&rflfq=1&num=10&rldimm=16811989444596183887&lqi=Ch9hZGVzdHJhZG9yIGRlIGPDo2VzIHNhbnRvIGFuZHJlWisiH2FkZXN0cmFkb3IgZGUgY8OjZXMgc2FudG8gYW5kcmUqCAgDEAAQARACkgELZG9nX3RyYWluZXKaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUTJja2xRU1c1UlJSQUKqARsQASoXIhNhZGVzdHJhZG9yIGRlIGPDo2VzKAw&ved=2ahUKEwixg7bdy_P4AhVGH7kGHU6IBrQQvS56BAhcEAE&sa=X&rlst=f#lrd=0x94ce69f43761ef0b:0xe9502f537cc5b34f,1,,,&rlfi=hd:;si:16811989444596183887,l,Ch9hZGVzdHJhZG9yIGRlIGPDo2VzIHNhbnRvIGFuZHJlWisiH2FkZXN0cmFkb3IgZGUgY8OjZXMgc2FudG8gYW5kcmUqCAgDEAAQARACkgELZG9nX3RyYWluZXKaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUTJja2xRU1c1UlJSQUKqARsQASoXIhNhZGVzdHJhZG9yIGRlIGPDo2VzKAw;mv:[[-23.6162945,-46.499333299999996],[-23.725667299999998,-46.557587]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!2m4!1e17!4m2!17m1!1e2!3sIAE,lf:1,lf_ui:14" frameborder="0"></iframe>
+        <div id="ndiv">
+            <h2 class="subtitulo">Confira também alguns dos relatos dos meus clientes!</h2>
+            <div id="carrossel">
+                <div class="slides">
+                    <!--button-->                    
+                    <input type="radio" name="radio-btn1" class="butao" id="radio11" value="1" checked="true" onclick="resetNextImage(1)">
+                    <input type="radio" name="radio-btn1" class="butao" id="radio12" value="2" onclick="resetNextImage(1)">
+                    <input type="radio" name="radio-btn1" class="butao" id="radio13" value="3" onclick="resetNextImage(1)">
+                    <input type="radio" name="radio-btn1" class="butao" id="radio14" value="4" onclick="resetNextImage(1)">
+                    <input type="radio" name="radio-btn1" class="butao" id="radio15" value="5" onclick="resetNextImage(1)">
+                
+                    <!--slide imagens-->
+                    <div class="slide first">
+                        <img src="imag-car/imag1-car.png" alt="review 1" class="pc">
+                        <img src="imag-car/cel1.png" class="cel" alt=""> 
+                    </div>
+                    <div class="slide">
+                        <img src="imag-car/_imag22-car.png" alt="review 2" class="pc">
+                        <img src="imag-car/cel2.png" class="cel" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="imag-car/_imag4-car.png" alt="review 3" class="pc">
+                        <img src="imag-car/cel3.png" class="cel" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="imag-car/_imag44-car.png" alt="review 4" class="pc">
+                        <img src="imag-car/cel4.png" class="cel" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="imag-car/_imag5-car.png" alt="review 5" class="pc">
+                        <img src="imag-car/cel5.png" class="cel" alt="">
+                    </div>
+                    <!--Navigation auto-->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                        <div class="auto-btn5"></div>
+                    </div>
+                </div>
+                <div class="manual-navigation">
+                    <label for="radio11" class="manual-btn"></label>
+                    <label for="radio12" class="manual-btn"></label>
+                    <label for="radio13" class="manual-btn"></label>
+                    <label for="radio14" class="manual-btn"></label>
+                    <label for="radio15" class="manual-btn"></label>
+                </div>
+            </div>
+            <p>Para visualizar todos as avaliações, confira minha página no <a id='google' href="https://www.google.com/search?client=opera&q=adestrador%20de%20cães%20santo%20andre&sourceid=opera&ie=UTF-8&oe=UTF-8&hs=q7G&tbs=lf:1,lf_ui:14&tbm=lcl&sxsrf=AJOqlzXDwoW9aYaw9PGDcjvxYyFw1YiNvw:1673907003944&rflfq=1&num=10&rldimm=16811989444596183887&lqi=Ch9hZGVzdHJhZG9yIGRlIGPDo2VzIHNhbnRvIGFuZHJlSOa5_NKjtoCACFo7EAAQARACGAAYARgCGAMYBCIfYWRlc3RyYWRvciBkZSBjw6NlcyBzYW50byBhbmRyZSoICAMQABABEAKSAQtkb2dfdHJhaW5lcpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VRMmNrbFFTVzVSUlJBQqoBGxABKhciE2FkZXN0cmFkb3IgZGUgY8OjZXMoDA&ved=2ahUKEwiErO3Cjc38AhW2pZUCHb7pB4EQvS56BAhoEAE&sa=X&rlst=f#rlfi=hd:;si:16811989444596183887,l,Ch9hZGVzdHJhZG9yIGRlIGPDo2VzIHNhbnRvIGFuZHJlSOa5_NKjtoCACFo7EAAQARACGAAYARgCGAMYBCIfYWRlc3RyYWRvciBkZSBjw6NlcyBzYW50byBhbmRyZSoICAMQABABEAKSAQtkb2dfdHJhaW5lcpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VRMmNrbFFTVzVSUlJBQqoBGxABKhciE2FkZXN0cmFkb3IgZGUgY8OjZXMoDA;mv:[[-23.6294692,-46.4993827],[-23.7219625,-46.5575842]]" target="_blank" rel="external">Google!</a></p>
         </div>
+        
         <div>
             <h2 class="subtitulo">Você gostaria de ter todos esses benefícios na relação com seu cachorro?</h2>
             <p>Então entre em <span> contato comigo por WhatsApp agora mesmo</span> para batermos um papo sobre sua situação com seu cachorro clicando abaixo!</p>
@@ -86,7 +178,7 @@
                 <a href=""><div id="logo-zap"></div></a>
             </div>
             <nav>
-                <p> Não se esqueça de me seguir em minhas redes sociais para acompanhar meu trabalho:</p>
+                <p> Não se esqueça de me seguir em meu instagram para acompanhar meu trabalho:</p>
                 <a href="https://www.instagram.com/alecionerisdogwalker/" target="_blank" rel="external"> <div id="logo-insta"></div></a>
             </nav>
         </div>
@@ -96,7 +188,8 @@
         <p class="p-baixo">Desenvolvido por <a href="https://github.com/Caio-P-Neris" target="_blank" rel="external" class="link-git" >Caio Pereira Neris</a></p>
     </footer>
 
-    <script>
+    <script src="scriptt.js"></script>
+    <!-- <script> 
         function clickMenu(){
             if (navcab.style.display == 'block'){
                 navcab.style.display = 'none'
@@ -108,7 +201,7 @@
         }
 
 
-    </script>
+    </script> -->
 
 </body>
 </html>
