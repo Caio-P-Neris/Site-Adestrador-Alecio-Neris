@@ -181,4 +181,8 @@
         border-radius: 10px;
     }
 
+    #contatiner{
+        background-image: url('imag-ia/fundo.png');
+    }
+
 }
