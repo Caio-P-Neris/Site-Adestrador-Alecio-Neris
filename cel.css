@@ -182,7 +182,9 @@
     }
 
     #contatiner{
-        background-image: url('imag-ia/fundo.png');
+        background-image: url('imag-ia/fundo2.png');
+        /* background-size: contain; */
+        background-attachment:scroll    
     }
 
 }
