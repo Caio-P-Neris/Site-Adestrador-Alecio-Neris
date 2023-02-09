@@ -82,9 +82,17 @@ h1{
     margin: 0%;
     margin-left: 17%;
     align-items: center;
-    color: #502000;
+    color: white;
     font-size: 3em;
 
+}
+
+#menor{
+    font-family: 'Arima', cursive, sans-serif;
+    align-items: center;
+    color: white;
+    font-size: 0.7em;
+    background-color:  #004C50;
 }
 
 .texto-cabeçalho{
